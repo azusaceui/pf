@@ -22,13 +22,14 @@ font-size:12.0000pt;
 </head>
 <body>
     <form id="form1" runat="server">
-    <div style="width:320px; ">
+    <div style="width:320px;  margin-left:auto;margin-right:auto">
         <asp:Label ID="Label11" runat="server" ForeColor="Red"></asp:Label>
         <br />
         <br />
         第一部份：基本資料<br />
         <br/>
-    家長姓名:<asp:TextBox ID="TextBox1" runat="server" Width="51px"></asp:TextBox>  手機:<asp:TextBox ID="TextBox2" runat="server" Width="111px"></asp:TextBox>
+      
+            家長貴姓:<asp:TextBox ID="TextBox1" runat="server" Width="51px"></asp:TextBox>  手機:<asp:TextBox ID="TextBox2" runat="server" Width="111px"></asp:TextBox>
 <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal">
             <asp:ListItem>先生</asp:ListItem>
             <asp:ListItem>小姐</asp:ListItem>
