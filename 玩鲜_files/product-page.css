@@ -1,0 +1,129 @@
+.section0 {
+	padding: 100px 0px; text-align: center; overflow: hidden; background-image: url("../img/product/bg.png"); background-size: 100% 100%;
+}
+.section {
+	text-align: center; overflow: hidden; font-family: sans-serif; font-weight: 100;
+}
+p.intro {
+	color: rgb(175, 184, 193); font-size: 1.5em; font-weight: 100; margin-top: 2em;
+}
+h2 {
+	font-size: 4em; font-weight: 500;
+}
+h3 {
+	font-size: 2em; font-weight: 100; z-index: 999;
+}
+.up {
+	margin-top: -1em;
+}
+.orange {
+	color: rgb(255, 219, 69);
+}
+.deep-grey {
+	color: rgb(175, 184, 193);
+}
+.white {
+	color: white;
+}
+img {
+	margin: auto;
+}
+img.title {
+	width: 30%;
+}
+img.app {
+	width: 40%; margin-bottom: 0px;
+}
+.img-center {
+	display: block;
+}
+.section2 {
+	background-color: rgb(248, 248, 248);
+}
+.section3 {
+	background-color: rgb(255, 219, 69);
+}
+.section2-img {
+	width: 40%; display: inline;
+}
+.section2-text {
+	text-align: left; margin-left: 10%; vertical-align: 600%; display: inline-block;
+}
+.section3-text {
+	text-align: right; margin-right: 10%; vertical-align: 15em; display: inline-block;
+}
+.section5 {
+	background-color: rgb(248, 248, 248);
+}
+img.section4-introduction {
+	width: 30%;
+}
+img.section4-img {
+	width: 40%; margin-top: 4%;
+}
+.download-button {
+	margin: 3% auto; padding: 12px 15px; border-radius: 30px; width: 18%; text-align: center; color: rgb(255, 219, 69); text-transform: none; font-size: 1.4em; font-style: normal; font-weight: 500; text-decoration: none; display: inline-block; white-space: nowrap; box-shadow: 0px 10px 20px 1px #f5d23e; background-color: rgb(255, 255, 255); -moz-border-radius: 8px; -webkit-border-radius: 8px; -webkit-box-shadow: 0px 10px 20px 1px #F5D23E; -moz-box-shadow: 0px 10px 20px 1px #F5D23E;
+}
+.download-button-2 {
+	margin: 3% auto; padding: 12px 15px; border-radius: 30px; width: 18%; text-align: center; color: rgb(255, 219, 69); text-transform: none; font-size: 1.4em; font-style: normal; font-weight: 500; text-decoration: none; display: inline-block; white-space: nowrap; box-shadow: 0px 10px 20px 1px #e9edee; background-color: rgb(255, 255, 255); -moz-border-radius: 8px; -webkit-border-radius: 8px; -webkit-box-shadow: 0px 10px 20px 1px #E9EDEE; -moz-box-shadow: 0px 10px 20px 1px #E9EDEE;
+}
+.big-logo {
+	width: 15%;
+}
+#about-us {
+	padding: 0.3em 1.2em; border-radius: 30px; top: 30px; right: 30px; font-family: sans-serif; font-weight: bolder; text-decoration: none; position: fixed; z-index: 999;
+}
+.grey-surface {
+	border: 2px solid rgb(207, 214, 222); border-image: none; color: rgb(207, 214, 222);
+}
+.white-surface {
+	border: 2px solid white; border-image: none; color: white;
+}
+@media only screen and (max-device-width:640px), only screen and (max-device-width:667px), only screen and (max-width:480px)
+{
+img.title {
+	width: 80%;
+}
+.db-group {
+	margin: 10% auto 20%;
+}
+.download-button {
+	margin: 2% auto; border-radius: 300px; width: 60%; font-size: 3em;
+}
+.download-button-2 {
+	margin: 2% auto; border-radius: 300px; width: 60%; font-size: 3em;
+}
+img.app {
+	width: 90%;
+}
+.up {
+	margin-top: 0px; margin-bottom: 0.4em;
+}
+h2 {
+	font-size: 7em;
+}
+h3 {
+	font-size: 4em;
+}
+.section2-img {
+	width: 70%;
+}
+.section2-text {
+	margin: 15% auto; text-align: center;
+}
+.section3-text {
+	text-align: center; margin-right: 0px;
+}
+img.section4-img {
+	width: 80%; margin-top: 20%;
+}
+.big-logo {
+	width: 60%;
+}
+p.intro {
+	color: rgb(175, 184, 193); font-size: 2.5em; font-weight: 100; margin-top: 3em;
+}
+#about-us {
+	border-width: thick; padding: 0.3em 1.2em; border-radius: 100px; top: 50px; right: 50px; font-size: 2em;
+}
+}
