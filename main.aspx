@@ -9,9 +9,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div  style="width:600px;margin-left:auto;margin-right:auto; ">
     
-        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="SqlDataSource1" EnableModelValidation="True" OnRowCommand="GridView1_RowCommand">
+        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="id" DataSourceID="SqlDataSource1" EnableModelValidation="True" OnRowCommand="GridView1_RowCommand" BackColor="LightGoldenrodYellow" BorderColor="Tan" BorderWidth="1px" CellPadding="2" ForeColor="Black" GridLines="None">
+            <AlternatingRowStyle BackColor="PaleGoldenrod" />
             <Columns>
                 <asp:BoundField DataField="id" HeaderText="id" InsertVisible="False" ReadOnly="True" SortExpression="id" />
                 <asp:BoundField DataField="mingzi" HeaderText="家長" SortExpression="mingzi" />
@@ -20,6 +21,7 @@
                 <asp:BoundField DataField="guoxiao" HeaderText="國小" SortExpression="guoxiao" />
                 <asp:BoundField DataField="nianji" HeaderText="年級" SortExpression="nianji" />
                 <asp:BoundField DataField="xingbie1" HeaderText="學生" SortExpression="xingbie1" />
+                 <asp:BoundField DataField="shijian" HeaderText="時間" SortExpression="shijian" />
                 <asp:TemplateField ShowHeader="true" HeaderText="問卷" >
                     <ItemTemplate>
                     <asp:Button ID="Button1" runat="server"  CommandName="cha" CommandArgument='<%#Eval("id")%>' Text="查看"></asp:Button>
@@ -29,6 +31,10 @@
                 <asp:CommandField ShowDeleteButton="True"/>
                 
             </Columns>
+            <FooterStyle BackColor="Tan" />
+            <HeaderStyle BackColor="Tan" Font-Bold="True" />
+            <PagerStyle BackColor="PaleGoldenrod" ForeColor="DarkSlateBlue" HorizontalAlign="Center" />
+            <SelectedRowStyle BackColor="DarkSlateBlue" ForeColor="GhostWhite" />
         </asp:GridView>
     
     </div>

@@ -4,7 +4,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class p2 : System.Web.UI.Page
+public partial class p3 : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -15,15 +15,16 @@ public partial class p2 : System.Web.UI.Page
         string wenjuan = "";
         wenjuan += Label1.Text + "<br/>" + RadioButtonList3.Text + "<br/><br/>";
         wenjuan += Label2.Text + "<br/>" + RadioButtonList4.Text + "<br/><br/>";
-        wenjuan += Label3.Text + "<br/>" + cb(CheckBoxList1) + "<br/><br/>";
+        wenjuan += Label3.Text + "<br/>" + RadioButtonList11.Text + "<br/><br/>";
         wenjuan += Label4.Text + "<br/>" + RadioButtonList9.Text + "<br/><br/>";
-        wenjuan += Label5.Text + "<br/>" + RadioButtonList5.Text + "<br/><br/>";
-        wenjuan += RadioButtonList6.Text + "<br/><br/>";
+        wenjuan +=  RadioButtonList5.Text + "<br/><br/>";
+        wenjuan += Label6.Text+ "<br/>"+RadioButtonList6.Text + "<br/><br/>";
         wenjuan += Label7.Text + "<br/>" + RadioButtonList7.Text + "<br/><br/>";
+        wenjuan += Label13.Text + "<br/>" + RadioButtonList12.Text + "<br/><br/>";
         wenjuan += Label8.Text + "<br/>" + RadioButtonList8.Text + "<br/><br/>";
         wenjuan += Label9.Text + "<br/>" + cb(CheckBoxList2) + "<br/><br/>";
         wenjuan += Label10.Text + "<br/>" + tongji() + "<br/><br/>";
-        wenjuan += Label12.Text + "<br/>" + RadioButtonList10.Text ;
+        wenjuan += Label12.Text + "<br/>" + RadioButtonList10.Text;
 
         string sql = "insert into diaocha (mingzi,shouji,xingbie,guoxiao,nianji,xingbie1,wenjuan,shijian) values('"
             + TextBox1.Text + "','" + TextBox2.Text + "','" + RadioButtonList1.Text + "','" + TextBox3.Text + "','" + TextBox4.Text + "','" + RadioButtonList2.Text + "','" + wenjuan + "',GetDate())";
@@ -56,4 +57,5 @@ public partial class p2 : System.Web.UI.Page
         if (DropDownList9.Text != "0") tt += DropDownList9.Text + ",硬體設備;";
         return tt;
     }
+
 }
